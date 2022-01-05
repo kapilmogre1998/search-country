@@ -1,4 +1,4 @@
-## REST Countries API with color theme switcher
+## REST Countries API is used to search for countries
 
 ### Users should be able to:
 
