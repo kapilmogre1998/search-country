@@ -1,0 +1,10 @@
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 40px 8px 40px;
+    box-shadow: 0 4px 8px 0 rgba(107, 106, 106, 0.2);
+}
+.navbar-mode>button{
+    padding: 0px 2px;
+    font-size: 12px;
+}

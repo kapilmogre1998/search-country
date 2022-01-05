@@ -1,0 +1,32 @@
+.country-details{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+.country-details>button{
+    margin: 20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(153, 149, 149, 0.2);
+    border: 0px;
+    background-color: inherit;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: rgb(102, 100, 100);
+}
+.country-details-box{
+    display: flex;
+}
+.country-details-box-text{
+    display: flex;
+    margin: 0px 40px;
+    font-size: 14px;
+}
+.country-details-box-text1>h4{
+    margin-bottom: 30px;
+}
+.country-details-box-text span{
+    font-weight: 600;
+}
+.country-details-box-text2{
+    margin-top: 58px;
+    margin-left: 40px;
+}
