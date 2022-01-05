@@ -8,7 +8,7 @@
 4. Click on a country to see more detailed information on a separate page.
 5. Toggle the color scheme between light and dark mode
 
-### Techonoly used are
+### Technology used are
 1. React 
 
 #### 👉 [ Click here to see](https://nervous-beaver-41c90c.netlify.app/)
