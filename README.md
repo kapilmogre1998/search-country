@@ -11,4 +11,4 @@
 ### Technology used are
 1. React 
 
-#### 👉 [ Click here to see](https://nervous-beaver-41c90c.netlify.app/)
+#### 👉 [ Click here to see](https://romantic-jackson-968030.netlify.app/)
