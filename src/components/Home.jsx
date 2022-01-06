@@ -13,7 +13,7 @@ let timer;
 export const Home = () => {
     const {toggle,toggleTheme} = useContext(AppContext)
     const [allCountriesData, setAllCountriesData] = useState();
-    const [searchCountry, setSearchCountry] = useState();
+    const [searchCountry, setSearchCountry] = useState("");
     const [suggestion,setSuggestion] = useState(undefined);
     const [filter,setFilter] = useState();
 
@@ -44,8 +44,6 @@ export const Home = () => {
                 .then(({data})=> setSuggestion(data))
                 .catch(()=>console.log("please try after sometime"))
             }
-            else
-            setSearchCountry(undefined)
         },800)
     }
 
@@ -67,10 +65,10 @@ export const Home = () => {
             <div className="display-countries-contianer">
                 <div className='input-container'>
                     <div className='input-filter-container' >
-                        <DIV className='input-text-box'>
+                        <div className='input-text-box'>
                         <i className="fas fa-search search-icon"></i>
-                        <input type="text" placeholder='Search for a country' onChange={(e)=> handleSearch(e)} />
-                        </DIV>
+                        <input type="text" placeholder='Search for a country' value={searchCountry} onInput={(e)=> handleSearch(e)} />
+                        </div>
                         <SELECT className='filter-box' onChange={handleFilter}>
                             <option value="">Filter Regional Bloc</option>
                             <option value="asean">ASEAN</option>
