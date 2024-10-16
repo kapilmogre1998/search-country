@@ -11,6 +11,5 @@
 ### Technology used are
 1. React
 2. Redux
-3. CSS
 
 #### 👉 [ Click here to see](https://romantic-jackson-968030.netlify.app/)
